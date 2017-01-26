@@ -1,0 +1,2 @@
+2017/01/26 04:55:07 [emerg] 22107#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2017/01/26 04:57:42 [notice] 22152#0: signal process started
