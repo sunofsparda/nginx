@@ -8,7 +8,9 @@ mkdir ~/temp/nginx-install
 cd ~/temp/nginx-install
 #download nginx
 wget http://nginx.org/download/nginx-1.11.9.tar.gz
+
 wget https://ftp.pcre.org/pub/pcre/pcre-8.40.tar.gz
+
 wget https://www.openssl.org/source/openssl-1.0.2j.tar.gz
 tar nginx-1.11.9.tar.gz
 tar pcre-8.40.tar.gz
