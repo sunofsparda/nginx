@@ -12,9 +12,10 @@ wget http://nginx.org/download/nginx-1.11.9.tar.gz
 wget https://ftp.pcre.org/pub/pcre/pcre-8.40.tar.gz
 
 wget https://www.openssl.org/source/openssl-1.0.2j.tar.gz
-tar nginx-1.11.9.tar.gz
-tar pcre-8.40.tar.gz
-tar openssl-1.0.2j.tar.gz
+
+tar nginx-1.11.9.tar.gz 
+tar pcre-8.40.tar.gz 
+tar openssl-1.0.2j.tar.gz 
 #download nginx-module-vts
 wget https://github.com/vozlt/nginx-module-vts/archive/master.zip
 unzip master.zip
