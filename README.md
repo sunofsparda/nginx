@@ -1,8 +1,8 @@
 # nginx
 
 #TASK1
-
-8. Send email to trainer: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 8. Send email to trainer: 
 With email Subject “MTN.NIX.08.NGINX_Task_1”
 In the body email should contain text as following:
 
@@ -14,7 +14,7 @@ Where:
  <username> - name of the user You run nginx
  <repository_clone_url> - URL to clone Your repository
  <ip_address> You use as a server_name in configs
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ################################################
 
 
