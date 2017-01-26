@@ -22,3 +22,4 @@ cd nginx-1.11.9
 make
 make install
 
+htpasswd -c /home/user/nginx/conf/.htpasswd admin
