@@ -172,3 +172,4 @@
 2017/01/26 09:48:11 [error] 4155#0: *1 open() "/home/user/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.94, request: "GET /admin/ HTTP/1.1", host: "192.168.122.94:8080"
 2017/01/26 09:48:11 [error] 4155#0: *1 open() "/home/user/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.94, request: "GET /admin/ HTTP/1.1", host: "192.168.122.94:8080"
 2017/01/26 09:48:11 [error] 4155#0: *1 open() "/home/user/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.94, request: "GET /admin/ HTTP/1.1", host: "192.168.122.94:8080"
+2017/01/26 10:16:26 [error] 4463#0: *1 open() "/home/user/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.94, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.94:8080"
