@@ -3,9 +3,13 @@
 #TASK1
 
 yum install -y gcc gcc-c++ git unzip
+
 cd ~
+
 mkdir ~/temp/nginx-install
+
 cd ~/temp/nginx-install
+
 #download nginx
 wget http://nginx.org/download/nginx-1.11.9.tar.gz
 
