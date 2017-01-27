@@ -173,3 +173,17 @@
 2017/01/26 09:48:11 [error] 4155#0: *1 open() "/home/user/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.94, request: "GET /admin/ HTTP/1.1", host: "192.168.122.94:8080"
 2017/01/26 09:48:11 [error] 4155#0: *1 open() "/home/user/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.94, request: "GET /admin/ HTTP/1.1", host: "192.168.122.94:8080"
 2017/01/26 10:16:26 [error] 4463#0: *1 open() "/home/user/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.94, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.94:8080"
+2017/01/27 05:56:49 [emerg] 1987#0: BIO_new_file("/home/user/nginx/conf/server.crt") failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/home/user/nginx/conf/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2017/01/27 05:58:50 [error] 2048#0: *2 open() "/home/user/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.103, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.103:8443"
+2017/01/27 05:58:50 [error] 2048#0: *2 open() "/home/user/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.103, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.103:8443"
+2017/01/27 06:24:38 [error] 2663#0: *2 open() "/home/user/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.103, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.103:443"
+2017/01/27 06:24:38 [error] 2663#0: *2 open() "/home/user/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.103, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.103:443"
+2017/01/27 07:19:15 [emerg] 6469#0: invalid parameter "https" in /home/user/nginx/conf/vhosts/lb.conf:7
+2017/01/27 07:19:28 [emerg] 6478#0: invalid variable name in /home/user/nginx/conf/vhosts/lb.conf:14
+2017/01/27 07:19:51 [emerg] 6488#0: invalid variable name in /home/user/nginx/conf/vhosts/lb.conf:14
+2017/01/27 07:20:23 [emerg] 6553#0: invalid parameter "https" in /home/user/nginx/conf/vhosts/lb.conf:7
+2017/01/27 07:24:57 [error] 6834#0: *1 open() "/home/user/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.103, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.103"
+2017/01/27 07:24:57 [error] 6834#0: *1 open() "/home/user/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.103, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.103"
+2017/01/27 07:25:29 [error] 6834#0: *4 open() "/home/user/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.103, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.103"
+2017/01/27 07:57:56 [error] 7645#0: *3 open() "/home/user/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.103:8443"
+2017/01/27 07:57:56 [error] 7645#0: *3 open() "/home/user/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.103:8443"
